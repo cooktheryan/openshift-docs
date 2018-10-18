@@ -1,7 +1,7 @@
 ==== Creating a Red Hat Enterprise Linux Base Image
 
 After the user and project are created, a cloud image is required for all the
-{rhosp} instances that are to install {product-title}. For this particular reference
+Red Hat OpenStack Platform instances that are to install {product-title}. For this particular reference
 environment the image used is {rhel} {rhel_version}.
 
 NOTE: {rhel} {rhel_version} includes support for overlay2 file system used in
@@ -34,8 +34,8 @@ $ openstack image create <img-name> \
     --container-format=bare < <img-name>.raw
 ----
 
-A {rhosp} administrator may allow this `glance` {rhel} image to be readily
-available to all projects within the {rhosp} environment. This may be done by
+A Red Hat OpenStack Platform administrator may allow this `glance` {rhel} image to be readily
+available to all projects within the Red Hat OpenStack Platform environment. This may be done by
 `source` of an RC file with OpenStack administrator privileges that include the
  `--public` option prior to creating the `raw` image.
 

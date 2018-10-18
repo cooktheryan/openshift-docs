@@ -14,7 +14,7 @@ within the specified repositories.
 
 Example:
 
-Enable the rhel-7-server-openstack-{rhosp_version}-rpms and the required 
+Enable the rhel-7-server-openstack-13-rpms and the required 
 {product-title} repositories from 
 xref:../getting_started/install_openshift.adoc#set-up-repositories[Set Up
 Repositories]

@@ -41,11 +41,11 @@ to achieve a successful {product-title} on OpenStack deployment.
 include::install_config/topics/ocp_osp_provisioning.adoc[leveloffset=+2]
 
 [[registering-openstack-nodes]]
-== Registering with Subscription Manager the {rhocp} Instances
+== Registering with Subscription Manager the {product-title} Instances
 
 With the nodes successfully provisioned, the next step is to ensure all the
 nodes are successfuly registered via `subscription-manager` to install all the
-required packages for a successful {rhocp} installation. For simplicity,
+required packages for a successful {product-title} installation. For simplicity,
 a _repos.yml_ file has been created and provided.
 
 include::install_config/topics/ocp_osp_node_registration.adoc[leveloffset=+2]

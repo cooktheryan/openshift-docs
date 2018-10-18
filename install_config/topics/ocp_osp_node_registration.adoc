@@ -48,7 +48,7 @@ to modify using a username and password instead as shown in the examples:
 https://docs.ansible.com/ansible/2.6/modules/redhat_subscription_module.html
 
 NOTE: At times, the `redhat_subscription` module may fail on certain nodes. If
-this issue occurs, please manually register that {rhocp} instance using
+this issue occurs, please manually register that {product-title} instance using
 `subscription-manager`.
 
 

@@ -1,6 +1,6 @@
-==== Creation of {rhocp} Networks via OpenStack
+==== Creation of {product-title} Networks via OpenStack
 
-When deploying {rhocp} on {rhosp} as described in this segment,
+When deploying {product-title} on Red Hat OpenStack Platform as described in this segment,
 the requirements are two networks -- _public_ and _internal_ network.
 
 ===== Public Network
@@ -45,7 +45,7 @@ uses the format <ip>/<routing_prefix>, i.e. 10.0.0.1/24
 ===== Internal Network
 
 The _internal_ network is connected to the _public_ network via a router during
-the network setup. This allows each {rhosp} instance attached to the
+the network setup. This allows each Red Hat OpenStack Platform instance attached to the
 _internal_ network the ability to request a floating IP from the _public_ network
 for public access. The _internal_ network is created automically by the OpenShift
 Ansible installer via setting the `openshift_openstack_private_network_name`. More
